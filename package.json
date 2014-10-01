@@ -1,0 +1,32 @@
+{
+  "name": "premultiplied-rgba",
+  "version": "1.0.0",
+  "description": "standalone function to premultiply RGB by alpha channel",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Matt DesLauriers <dave.des@gmail.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.13.2"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/premultiplied-rgba.git"
+  },
+  "homepage": "https://github.com/mattdesl/premultiplied-rgba",
+  "bugs": {
+    "url": "https://github.com/mattdesl/premultiplied-rgba/issues"
+  },
+  "keywords": [
+    "premultily",
+    "premultiplied",
+    "alpha",
+    "rgb",
+    "rgba",
+    "channel",
+    "channels"
+  ]
+}
