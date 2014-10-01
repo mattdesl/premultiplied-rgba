@@ -2,19 +2,15 @@
 
 [![frozen](http://badges.github.io/stability-badges/dist/frozen.svg)](http://github.com/badges/stability-badges)
 
-Standalone function to premultiply RGB by alpha channel in-place. 
+Standalone function to premultiply RGB by alpha channel.
 
 ```js
 var premult = require('premultiplied-rgba')
 
 premult([1, 1, 1, 0.5]) 
 
-//=> returns new array with [0.5, 0.5, 0.5, 0.5]
+//=> returns new array [0.5, 0.5, 0.5, 0.5]
 ```
-
-For a 4-component array:
-
-`RGB *= A`
 
 ## Usage
 
