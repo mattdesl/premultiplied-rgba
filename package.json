@@ -1,6 +1,6 @@
 {
   "name": "premultiplied-rgba",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "standalone function to premultiply RGB by alpha channel",
   "main": "index.js",
   "license": "MIT",
