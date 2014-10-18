@@ -24,6 +24,10 @@ The `out` param allows you to re-use an array rather than creating a new one. So
 
 ```premultiply(rgba, rgba)```
 
+The `out` param will ignore numbers, so you can do array operations:
+
+```var premultiplied = colors.map(premultiply)```
+
 ## License
 
 MIT, see [LICENSE.md](http://github.com/mattdesl/premultiplied-rgba/blob/master/LICENSE.md) for details.
